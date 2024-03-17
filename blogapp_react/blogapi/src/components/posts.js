@@ -41,7 +41,7 @@ const Posts = (props) => {
 	return (
 		<React.Fragment>
 			<Container maxWidth="md" component="main">
-				<Grid container spacing={5} alignItems="flex-end">
+				<Grid container spacing={5} alignItems="flex-start">
 					{posts.map((post) => {
 						return (
 							// Enterprise card is full width at sm breakpoint

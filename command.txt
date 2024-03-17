@@ -1,0 +1,12 @@
+## python
+```
+cd blogapp
+source venv/bin/activate
+python manage.py runserver
+```
+## javascript
+```
+cd blogapp_react/blogapi
+export NODE_OPTIONS=--openssl-legacy-provider
+npm start
+```
